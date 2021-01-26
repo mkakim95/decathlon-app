@@ -55,7 +55,7 @@ public class CsvInput {
         return athletes;
     }
 
-    private void definePlace(List<Athlete> athletes) {
+    public void definePlace(List<Athlete> athletes) {
         var totalPoints = athletes.stream()
                 .map(Athlete::getTotalPoint)
                 .sorted(Comparator.reverseOrder())
@@ -69,7 +69,7 @@ public class CsvInput {
             var list = byTotalPointAthletes.get(totalPoint);
             for (Athlete athlete : list) {
                 if (list.size() > 1) {
-                    athlete.setPlace((place + 1) + "-" + list.size());
+                    athlete.setPlace((place + 1) + "-" + (list.size() + place));
                 } else {
                     athlete.setPlace(String.valueOf(place + 1));
                 }

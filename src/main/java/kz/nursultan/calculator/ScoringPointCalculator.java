@@ -14,7 +14,7 @@ public class ScoringPointCalculator {
             "####.###", DecimalFormatSymbols.getInstance(new Locale("en", "UK")));
 
     /**
-     * formula :  y = a * |x - b|^c,
+     * formula :  y = a * |x - b|^c
      *
      * @param x              athlete result by discipline
      * @param disciplineType discipline
@@ -22,7 +22,7 @@ public class ScoringPointCalculator {
      */
     public double getPoint(String x, DisciplineType disciplineType) {
         x = x.trim();
-        double result = 0;
+        double result = Double.parseDouble(x);
         if (disciplineType.getMeasureUnitType() == MeasureUnitType.SEC) {
             String[] val = x.split("\\.");
             result = val.length == 3
