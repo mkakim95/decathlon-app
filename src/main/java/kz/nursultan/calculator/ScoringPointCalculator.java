@@ -22,12 +22,14 @@ public class ScoringPointCalculator {
      */
     public double getPoint(String x, DisciplineType disciplineType) {
         x = x.trim();
-        double result = Double.parseDouble(x);
+        double result = 0;
         if (disciplineType.getMeasureUnitType() == MeasureUnitType.SEC) {
             String[] val = x.split("\\.");
             result = val.length == 3
                     ? Integer.parseInt(val[0]) * 60 + Double.parseDouble(val[1] + "." + val[2])
                     : Double.parseDouble(x);
+        } else {
+            result = Double.parseDouble(x);
         }
 
         return Double.parseDouble(decimalFormat.format(
