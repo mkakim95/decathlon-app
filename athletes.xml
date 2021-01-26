@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<athletes>
+    <athlete name="John Smith" place="1" totalPoint="3067.291">
+        <disciplinePoint point="536.542">Бег на 100 метров</disciplinePoint>
+        <disciplinePoint point="273.126">Прыжки в длину</disciplinePoint>
+        <disciplinePoint point="78.664">Толкание ядра</disciplinePoint>
+        <disciplinePoint point="389.24">Прыжки в высоту</disciplinePoint>
+        <disciplinePoint point="400.508">Бег на 400 метров</disciplinePoint>
+        <disciplinePoint point="685.579">Бег на 110 метров с барьерами</disciplinePoint>
+        <disciplinePoint point="59.319">Метание диска</disciplinePoint>
+        <disciplinePoint point="140.182">Прыжки с шестом</disciplinePoint>
+        <disciplinePoint point="82.936">Метание копья</disciplinePoint>
+        <disciplinePoint point="421.195">Бег на 1500 метров</disciplinePoint>
+    </athlete>
+    <athlete name="Jane Doe" place="2" totalPoint="2303.877">
+        <disciplinePoint point="461.583">Бег на 100 метров</disciplinePoint>
+        <disciplinePoint point="273.126">Прыжки в длину</disciplinePoint>
+        <disciplinePoint point="78.664">Толкание ядра</disciplinePoint>
+        <disciplinePoint point="389.24">Прыжки в высоту</disciplinePoint>
+        <disciplinePoint point="267.202">Бег на 400 метров</disciplinePoint>
+        <disciplinePoint point="455.956">Бег на 110 метров с барьерами</disciplinePoint>
+        <disciplinePoint point="59.319">Метание диска</disciplinePoint>
+        <disciplinePoint point="140.182">Прыжки с шестом</disciplinePoint>
+        <disciplinePoint point="82.936">Метание копья</disciplinePoint>
+        <disciplinePoint point="95.669">Бег на 1500 метров</disciplinePoint>
+    </athlete>
+    <athlete name="Foo Bar" place="3" totalPoint="2175.931">
+        <disciplinePoint point="397.994">Бег на 100 метров</disciplinePoint>
+        <disciplinePoint point="273.126">Прыжки в длину</disciplinePoint>
+        <disciplinePoint point="78.664">Толкание ядра</disciplinePoint>
+        <disciplinePoint point="389.24">Прыжки в высоту</disciplinePoint>
+        <disciplinePoint point="230.882">Бег на 400 метров</disciplinePoint>
+        <disciplinePoint point="428.557">Бег на 110 метров с барьерами</disciplinePoint>
+        <disciplinePoint point="59.319">Метание диска</disciplinePoint>
+        <disciplinePoint point="140.182">Прыжки с шестом</disciplinePoint>
+        <disciplinePoint point="82.936">Метание копья</disciplinePoint>
+        <disciplinePoint point="95.031">Бег на 1500 метров</disciplinePoint>
+    </athlete>
+    <athlete name="Jaan Lepp" place="4" totalPoint="2141.413">
+        <disciplinePoint point="348.989">Бег на 100 метров</disciplinePoint>
+        <disciplinePoint point="273.126">Прыжки в длину</disciplinePoint>
+        <disciplinePoint point="78.664">Толкание ядра</disciplinePoint>
+        <disciplinePoint point="389.24">Прыжки в высоту</disciplinePoint>
+        <disciplinePoint point="172.296">Бег на 400 метров</disciplinePoint>
+        <disciplinePoint point="417.309">Бег на 110 метров с барьерами</disciplinePoint>
+        <disciplinePoint point="59.319">Метание диска</disciplinePoint>
+        <disciplinePoint point="140.182">Прыжки с шестом</disciplinePoint>
+        <disciplinePoint point="82.936">Метание копья</disciplinePoint>
+        <disciplinePoint point="179.352">Бег на 1500 метров</disciplinePoint>
+    </athlete>
+</athletes>
